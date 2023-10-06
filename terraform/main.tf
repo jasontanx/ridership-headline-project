@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("/Users/junshengtan/Desktop/personal_project/ridership-headline-project/terraform/creds.json")
+  credentials = file("/Users/jason/Desktop/personal_project/ridership-headline-project/terraform/creds.json")
   project     = var.project_id
   region      = var.region
 }
