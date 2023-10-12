@@ -20,7 +20,7 @@ resource "google_bigquery_table" "table" {
 
   schema = <<EOF
 [
-  { "name": "date", "type": "TIMESTAMP" },
+  { "name": "date", "type": "DATE" },
   { "name": "bus_rkl", "type": "INTEGER" },
   { "name": "bus_rkn", "type": "INTEGER" },
   { "name": "bus_rpn", "type": "INTEGER" },
