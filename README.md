@@ -5,12 +5,16 @@ This end to end data engineering / data analytics project will be about the Mala
 
 1. Install minio
 
-2. Open terminal and key in following
+2. Create and identify the access key and the secret key
+
+3. Open terminal and key in following
 ```
 minio server start
 ```
 
-3. Create and identify the access key and the secret key
+3. Copy the link provided and open the webpage
+
+4. Key in the access key and secret key created earlier
 
 ## Files saved at MinIO bucket
 
