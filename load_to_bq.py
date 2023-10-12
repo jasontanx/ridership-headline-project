@@ -61,6 +61,12 @@ def extract_files_from_minio():
         # Read the MinIO data into a DataFrame (assuming it's CSV)
         df = pd.read_csv(BytesIO(minio_data.read()))
 
+
+        #transformation
+        df = df.iloc[:, 1:] # remove first column (irrelavant)
+        df['ingested_at'] = datetime.utcnow()
+        df.head(6)
+        
     except Exception as e:
         print(f"Failed to load data into BigQuery: {e}")
 
