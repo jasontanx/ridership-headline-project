@@ -1,6 +1,8 @@
 # ridership-headline-project
 This end to end data engineering / data analytics project will be about the Malaysian public transport ridership data. 
 
+![test drawio](https://github.com/jasontanx/ridership-headline-project/assets/116934441/e2cd3f9f-ec10-4586-9a5d-54d89218d260)
+
 ## Starting minio
 
 1. Install minio
