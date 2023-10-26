@@ -3,6 +3,12 @@ This end to end data engineering / data analytics project will be about the Mala
 
 ![test drawio](https://github.com/jasontanx/ridership-headline-project/assets/116934441/e2cd3f9f-ec10-4586-9a5d-54d89218d260)
 
+
+## Malaysia Public Transport Ridership Dashboard
+This dashboard was designed via Google Looker Studio
+<img width="887" alt="Screenshot 2023-10-26 at 5 22 08 PM" src="https://github.com/jasontanx/ridership-headline-project/assets/116934441/c6bbebe2-8cd1-482d-b22c-0dd9f3825dac">
+
+
 ## Starting minio
 
 1. Install minio
